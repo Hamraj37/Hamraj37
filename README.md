@@ -15,3 +15,9 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ------
+
+## 🚀 Projects:
+<!-- Add your projects here -->
+- [Project Name](link) - Brief description
+- [Project Name](link) - Brief description
+
