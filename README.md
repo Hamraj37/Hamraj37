@@ -18,6 +18,6 @@
 
 ## 🚀 Projects:
 <!-- Add your projects here -->
-- [Project Name](link) - Brief description
+- [Walla](https://walla.web.app) - Experience the ultimate personalization with Walla, your all-in-one destination for high-quality wallpapers and creative design tools. Whether you want to browse curated HD backgrounds or design your own unique look from scratch, Walla gives you the power to make your screen truly yours.
 - [Project Name](link) - Brief description
 
