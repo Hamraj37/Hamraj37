@@ -1,5 +1,5 @@
 # 💫 About Me:
-📚 I'm currently learning how to build custom roms.<br>🎮 I love to play Battle Royal Games.
+📚 I'm currently learning Android studio.<br>🎮 I love to play Battle Royal Games.
 
 
 ## 🌐 Socials:
