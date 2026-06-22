@@ -17,7 +17,7 @@
 ------
 
 ## � Resume
-[View my resume](./index.html) - A complete online CV featuring skills, certifications, education, languages, and project highlights.
+[View my resume](https://hamraj37.github.io/Hamraj37/) - A complete online CV featuring skills, certifications, education, languages, and project highlights.
 
 ## �🚀 Projects:
 <!-- Add your projects here -->
