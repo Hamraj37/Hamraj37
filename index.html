@@ -61,6 +61,20 @@ body {
   .download-btn {
     display: none;
   }
+  
+  body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .resume-container {
+    box-shadow: none;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+  }
 }
 
 .resume-container {
@@ -81,6 +95,7 @@ body {
 .header-left {
   width: 48%;
   padding: 60px 20px 30px 50px;
+  background-color: var(--bg-left);
 }
 
 .header-right {
@@ -90,6 +105,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  background-color: var(--bg-right);
 }
 
 .name {
@@ -146,6 +162,7 @@ body {
   position: relative;
   z-index: 2;
   margin-top: -20px;
+  background: linear-gradient(to right, var(--bg-left) 48%, var(--bg-right) 48%);
 }
 
 .objective-box {
@@ -178,17 +195,20 @@ body {
 
 .main-content {
   display: flex;
+  background: linear-gradient(to right, var(--bg-left) 48%, var(--bg-right) 48%);
 }
 
 .column-left {
   width: 48%;
   padding: 0 30px 60px 50px;
+  background-color: var(--bg-left);
 }
 
 .column-right {
   width: 52%;
   padding: 0 50px 60px 40px;
   color: white;
+  background-color: var(--bg-right);
 }
 
 .section {
@@ -378,15 +398,37 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
   }
-  .header-left { width: 48%; padding: 30px 12px 20px 20px; }
-  .header-right { width: 52%; padding: 20px 20px 20px 8px; }
-  .column-left { width: 48%; padding: 10px 12px 30px 20px; }
-  .column-right { width: 52%; padding: 10px 20px 30px 12px; background-color: var(--bg-right); }
-  .objective-wrapper { padding: 0 16px; }
+  .header-left { 
+    width: 48%; 
+    padding: 30px 12px 20px 20px; 
+    background-color: var(--bg-left);
+  }
+  .header-right { 
+    width: 52%; 
+    padding: 20px 20px 20px 8px; 
+    background-color: var(--bg-right);
+  }
+  .column-left { 
+    width: 48%; 
+    padding: 10px 12px 30px 20px; 
+    background-color: var(--bg-left);
+  }
+  .column-right { 
+    width: 52%; 
+    padding: 10px 20px 30px 12px; 
+    background-color: var(--bg-right); 
+  }
+  .objective-wrapper { 
+    padding: 0 16px;
+    background: linear-gradient(to right, var(--bg-left) 48%, var(--bg-right) 48%);
+  }
   .profile-photo-container { width: 140px; height: 140px; }
   .name { font-size: 40px; }
   .subtitle { font-size: 12px; }
-  .main-content { overflow-x: auto; }
+  .main-content { 
+    overflow-x: auto;
+    background: linear-gradient(to right, var(--bg-left) 48%, var(--bg-right) 48%);
+  }
 
   .languages-grid {
     flex-direction: column;
@@ -445,7 +487,7 @@ body {
   <div class="objective-wrapper">
     <div class="objective-box">
       <div class="objective-pill">Career Objective</div>
-      <p>Currently pursuing technical and administrative opportunities to develop professional skills in software development and office management. Focused on continuous learning in AI and automation.</p>
+      <p>Currently pursuing technical and administrative opportunities to develop professional skills in software development and office management. Focused on continuous learning in AI and automation[...]
     </div>
   </div>
 
@@ -522,9 +564,9 @@ body {
       <div class="section">
         <div class="section-pill">Projects</div>
         <ul>
-          <li><a href="https://github.com/Hamraj37/My-Labour" target="_blank" rel="noopener noreferrer"><strong>My Labour</strong></a> - My Labour is a powerful and intuitive Android application designed for contractors and site managers to effortlessly manage labour attendance, wages, and payments.</li>
-          <li><a href="https://github.com/Hamraj37/Project-Walla" target="_blank" rel="noopener noreferrer"><strong>Walla</strong></a> - Walla is a modern Android application designed to give you total control over your device's aesthetics. From curated HD collections to powerful creation tools, Walla transforms your screen into a personalized canvas.</li>
-          <li><a href="https://github.com/Hamraj37/arrow" target="_blank" rel="noopener noreferrer"><strong>Arrow</strong></a> - Arrow is a modern, minimalist puzzle game built with Jetpack Compose. Players must strategically tap arrows to make them fly off the grid without colliding with other arrows.</li>
+          <li><a href="https://github.com/Hamraj37/My-Labour" target="_blank" rel="noopener noreferrer"><strong>My Labour</strong></a> - My Labour is a powerful and intuitive Android application desig[...]
+          <li><a href="https://github.com/Hamraj37/Project-Walla" target="_blank" rel="noopener noreferrer"><strong>Walla</strong></a> - Walla is a modern Android application designed to give you tota[...]
+          <li><a href="https://github.com/Hamraj37/arrow" target="_blank" rel="noopener noreferrer"><strong>Arrow</strong></a> - Arrow is a modern, minimalist puzzle game built with Jetpack Compose. P[...]
         </ul>
       </div>
 
