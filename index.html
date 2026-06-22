@@ -89,6 +89,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .name {
@@ -127,8 +128,10 @@ body {
   border: 8px solid rgba(255, 255, 255, 0.85);
   overflow: hidden;
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-  position: relative;
+  position: absolute;
   z-index: 10;
+  bottom: -40px;
+  right: 50px;
 }
 
 .profile-photo-container img {
@@ -142,6 +145,7 @@ body {
   margin-bottom: 40px;
   position: relative;
   z-index: 2;
+  margin-top: -20px;
 }
 
 .objective-box {
